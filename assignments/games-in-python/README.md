@@ -1,34 +1,34 @@
 
-# 📘 Assignment: Hangman Game
+# 📘 Assignment: Jogo da Forca
 
-## 🎯 Objective
+## 🎯 Objetivo
 
-Build a classic Hangman game in Python to practice string manipulation, loops, conditionals, and user input handling.
+Construa o clássico jogo da Forca em Python para praticar manipulação de strings, laços de repetição, condicionais e tratamento de entrada do usuário.
 
-## 📝 Tasks
+## 📝 Tarefas
 
-### 🛠️ Implement Word Selection and Game Setup
+### 🛠️ Implementar Seleção de Palavra e Configuração Inicial
 
 #### Descrição
-Create the initial game setup by defining a word list, selecting one word at random, and initializing the game state.
+Crie a configuração inicial do jogo definindo uma lista de palavras, selecionando uma palavra aleatória e inicializando o estado da partida.
 
 #### Requisitos
 O programa concluído deve:
 
-- Select one word randomly from a predefined list.
-- Initialize the hidden word display using underscores (for example: `_ _ _ _`).
-- Set the starting number of incorrect attempts allowed.
+- Selecionar uma palavra aleatoriamente a partir de uma lista predefinida.
+- Inicializar a exibição da palavra oculta usando sublinhados (por exemplo: `_ _ _ _`).
+- Definir o número inicial de tentativas incorretas permitidas.
 
-### 🛠️ Build the Guessing Loop and End Conditions
+### 🛠️ Construir o Laço de Palpites e Condições de Encerramento
 
 #### Descrição
-Implement the main game loop to receive letter guesses, update progress, and end the game with a clear result.
+Implemente o laço principal do jogo para receber palpites de letras, atualizar o progresso e encerrar a partida com um resultado claro.
 
 #### Requisitos
 O programa concluído deve:
 
-- Accept letter guesses from the user one at a time.
-- Reveal correctly guessed letters in the current word display.
-- Decrease remaining attempts only when the guess is incorrect.
-- End with a victory message when the word is fully guessed.
-- End with a defeat message when attempts reach zero.
+- Aceitar palpites de letras do usuário, um por vez.
+- Revelar as letras corretamente adivinhadas na exibição atual da palavra.
+- Diminuir as tentativas restantes apenas quando o palpite estiver incorreto.
+- Encerrar com uma mensagem de vitória quando a palavra for totalmente adivinhada.
+- Encerrar com uma mensagem de derrota quando as tentativas chegarem a zero.
