@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "data-structures-task-organizer",
+      "title": "Data Structures: Smart Task Organizer",
+      "description": "Use lists, dictionaries, and sets to build efficient task queries and reports in Python.",
+      "path": "assignments/data-structures-task-organizer",
+      "dueDate": "2026-08-12",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
